@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#root{
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+
+#quotes{
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 20px;
+}
+button{
+    border-radius: 10px;
+    background-color: #667eea;
+    padding: 10px;
+}
+
+
